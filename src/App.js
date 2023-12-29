@@ -1,5 +1,6 @@
 import "./App.css";
 import logo from "./shecodes-logo.png";
+import DicoSearch from "./DicoSearch.js";
 
 export default function App() {
   return (
@@ -12,8 +13,12 @@ export default function App() {
             alt="shecodes logo"
           ></img>
         </header>
-        <a className="btn btn-primary">Hello</a>
-        <footer>Coded by Mahelet for SheCodes boothcamp</footer>
+        <main>
+          <DicoSearch />
+        </main>
+        <footer className="footer">
+          Coded by Mahelet for SheCodes boothcamp
+        </footer>
       </div>
     </div>
   );
