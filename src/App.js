@@ -1,11 +1,15 @@
 import "./App.css";
-import "./SheCodes-logo.png";
+import logo from "./shecodes-logo.png";
 
 function App() {
   return (
     <div className="App">
       <header className="app-header">
-        <img src="{logo}" className="app-logo" alt="shecodes logo"></img>
+        <img
+          src={logo}
+          className="app-logo img-fluid"
+          alt="shecodes logo"
+        ></img>
       </header>
     </div>
   );
