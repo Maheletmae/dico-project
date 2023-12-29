@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./shecodes-logo.png";
+import logo from "./logo.png";
 import DicoSearch from "./DicoSearch.js";
 
 export default function App() {
