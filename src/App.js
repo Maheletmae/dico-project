@@ -1,7 +1,7 @@
 import "./App.css";
 import logo from "./shecodes-logo.png";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="app-header">
@@ -15,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
