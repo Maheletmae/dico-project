@@ -11,6 +11,7 @@ function App() {
           alt="shecodes logo"
         ></img>
       </header>
+      <a className="btn btn-primary">Hello</a>
     </div>
   );
 }
